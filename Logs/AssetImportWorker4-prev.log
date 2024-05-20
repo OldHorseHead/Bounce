@@ -1,0 +1,2521 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.20f1c1 (82a5dab7aa2a) revision 8562138'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 15716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/Unity3DProjects/Bounce/Bounce
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+7259
+Successfully changed project path to: E:/Unity3DProjects/Bounce/Bounce
+E:/Unity3DProjects/Bounce/Bounce
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20036] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 2293903674 [EditorId] 2293903674 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4E4U8I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20036] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 2293903674 [EditorId] 2293903674 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K4E4U8I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 16.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1c1 (82a5dab7aa2a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity3DProjects/Bounce/Bounce/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T600 Laptop GPU (ID=0x1fba)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1c1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.018713 seconds.
+- Loaded All Assemblies, in  0.672 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.266 seconds
+Domain Reload Profiling: 933ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (298ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (266ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 1130ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (500ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3549.
+Memory consumption went from 127.3 MB to 127.3 MB.
+Total: 3.046700 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.574300 ms  DeleteObjects: 0.113100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135338.460308 seconds.
+  path: Assets/Scripts/Ball.physicMaterial
+  artifactKey: Guid(e493b330fc6f49944add930d29fc047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ball.physicMaterial using Guid(e493b330fc6f49944add930d29fc047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374defdbe6da7982a66c87bfce82fd2') in 0.009732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.691450 seconds.
+  path: Assets/Scripts/Ball.physicsMaterial2D
+  artifactKey: Guid(9f391d8030b192b4aa0bd99eff74cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ball.physicsMaterial2D using Guid(9f391d8030b192b4aa0bd99eff74cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0de61885418a305aa30ccb4618bc085') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3553.
+Memory consumption went from 128.1 MB to 128.0 MB.
+Total: 3.125200 ms (FindLiveObjects: 0.438200 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.535800 ms  DeleteObjects: 0.047200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.433 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.897 seconds
+Domain Reload Profiling: 1325ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (898ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3556.
+Memory consumption went from 130.3 MB to 130.2 MB.
+Total: 5.052900 ms (FindLiveObjects: 0.426800 ms CreateObjectMapping: 0.120800 ms MarkObjects: 4.436900 ms  DeleteObjects: 0.067000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1366ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3559.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 2.595000 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.181800 ms  DeleteObjects: 0.045800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.442 seconds
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.913 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3562.
+Memory consumption went from 134.1 MB to 134.1 MB.
+Total: 3.429100 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.212100 ms MarkObjects: 2.877100 ms  DeleteObjects: 0.085500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.485 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3565.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 3.370700 ms (FindLiveObjects: 0.290100 ms CreateObjectMapping: 0.233300 ms MarkObjects: 2.793300 ms  DeleteObjects: 0.052800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.934 seconds
+Domain Reload Profiling: 1383ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (934ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3568.
+Memory consumption went from 138.0 MB to 137.9 MB.
+Total: 3.130300 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.240100 ms MarkObjects: 2.565100 ms  DeleteObjects: 0.056600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.931 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3571.
+Memory consumption went from 139.9 MB to 139.9 MB.
+Total: 2.929000 ms (FindLiveObjects: 0.329600 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.431900 ms  DeleteObjects: 0.064800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.943 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3574.
+Memory consumption went from 141.8 MB to 141.8 MB.
+Total: 3.093500 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.087300 ms MarkObjects: 2.682700 ms  DeleteObjects: 0.052200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 4.48 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.984 seconds
+Domain Reload Profiling: 1433ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (984ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3577.
+Memory consumption went from 143.7 MB to 143.7 MB.
+Total: 3.019000 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.617500 ms  DeleteObjects: 0.053000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.456 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.897 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (897ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3580.
+Memory consumption went from 145.7 MB to 145.6 MB.
+Total: 2.920900 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.150700 ms MarkObjects: 2.500200 ms  DeleteObjects: 0.045900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1354ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3583.
+Memory consumption went from 147.6 MB to 147.5 MB.
+Total: 2.828800 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.094600 ms MarkObjects: 2.441600 ms  DeleteObjects: 0.044800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1371ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (929ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3586.
+Memory consumption went from 149.5 MB to 149.5 MB.
+Total: 2.684400 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.305300 ms  DeleteObjects: 0.044800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (922ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (398ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3589.
+Memory consumption went from 151.4 MB to 151.4 MB.
+Total: 3.095700 ms (FindLiveObjects: 0.410200 ms CreateObjectMapping: 0.167600 ms MarkObjects: 2.469300 ms  DeleteObjects: 0.047800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.450 seconds
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.893 seconds
+Domain Reload Profiling: 1337ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (893ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3592.
+Memory consumption went from 153.3 MB to 153.3 MB.
+Total: 3.685900 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.167900 ms MarkObjects: 3.066500 ms  DeleteObjects: 0.149100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.484 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.934 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (935ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3595.
+Memory consumption went from 155.3 MB to 155.2 MB.
+Total: 3.019400 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.583600 ms  DeleteObjects: 0.051200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1358ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (904ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (390ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3598.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 3.122900 ms (FindLiveObjects: 0.435800 ms CreateObjectMapping: 0.138900 ms MarkObjects: 2.494600 ms  DeleteObjects: 0.052600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 4.71 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.917 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (917ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3601.
+Memory consumption went from 159.1 MB to 159.1 MB.
+Total: 2.993600 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.585500 ms  DeleteObjects: 0.073100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.442 seconds
+Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1320ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3604.
+Memory consumption went from 161.0 MB to 161.0 MB.
+Total: 3.062900 ms (FindLiveObjects: 0.334200 ms CreateObjectMapping: 0.135100 ms MarkObjects: 2.544800 ms  DeleteObjects: 0.047800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.913 seconds
+Domain Reload Profiling: 1367ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3607.
+Memory consumption went from 162.9 MB to 162.9 MB.
+Total: 2.981200 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.218000 ms MarkObjects: 2.396900 ms  DeleteObjects: 0.049400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.909 seconds
+Domain Reload Profiling: 1343ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (909ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3610.
+Memory consumption went from 164.9 MB to 164.8 MB.
+Total: 2.612200 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.216900 ms  DeleteObjects: 0.043400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.446 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.907 seconds
+Domain Reload Profiling: 1348ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (908ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3613.
+Memory consumption went from 166.8 MB to 166.8 MB.
+Total: 3.317400 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.178700 ms MarkObjects: 2.769900 ms  DeleteObjects: 0.081500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 833.142422 seconds.
+  path: Assets/Scripts/Ball.physicsMaterial2D
+  artifactKey: Guid(9f391d8030b192b4aa0bd99eff74cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ball.physicsMaterial2D using Guid(9f391d8030b192b4aa0bd99eff74cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c74249fadb140479e2a0b25d19623c9') in 0.009408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.452 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1335ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (889ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3616.
+Memory consumption went from 168.4 MB to 168.4 MB.
+Total: 3.226700 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.795500 ms  DeleteObjects: 0.051500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1336ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3619.
+Memory consumption went from 170.6 MB to 170.6 MB.
+Total: 2.937500 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.536400 ms  DeleteObjects: 0.051000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.909 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3622.
+Memory consumption went from 172.5 MB to 172.5 MB.
+Total: 3.333900 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.874600 ms  DeleteObjects: 0.056700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.902 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (902ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3625.
+Memory consumption went from 174.5 MB to 174.4 MB.
+Total: 3.174300 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.668200 ms  DeleteObjects: 0.047800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.902 seconds
+Domain Reload Profiling: 1355ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (903ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3628.
+Memory consumption went from 176.4 MB to 176.3 MB.
+Total: 3.220400 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.216800 ms MarkObjects: 2.575900 ms  DeleteObjects: 0.087200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1327ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3631.
+Memory consumption went from 178.3 MB to 178.3 MB.
+Total: 2.605100 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.156300 ms MarkObjects: 2.169600 ms  DeleteObjects: 0.048900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KnowledgePool.cs: f39dd010539bfe059406ce269ede70d1 -> 
+  custom:scripting/monoscript/fileName/Board.cs: ffaa2ea455be6d08b1e9776c3c8cd5ec -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Ball.cs: 30a702f8362d1ce82f335290b38e372a -> 049c2654812ca44acca88f91a5e04467
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/CollideSensorManagement.cs: 8e3654bd3a5cd679fcd6ed1101eee77a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollideSensor.cs: bb893ec0b45880a7988d3807f78f295b -> 
+  custom:scripting/monoscript/fileName/RigidBoard.cs: 55e87c19a4b5e0ef5cfb50872da51d2b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/IProcessor.cs: 8f6ebdedbc41d1f401352cb2e5b1dbb7 -> 
+  custom:scripting/monoscript/fileName/CollideRequest.cs: 48675f8a2abc6991a913e8b047662c5b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BallCollideSensor.cs: bbce4697e2c3db09900cc2cf60994412 -> 
+  custom:scripting/monoscript/fileName/IRequestCondition.cs: 1c1ae98eb4834092a7e4c45684601e51 -> 
+  custom:scripting/monoscript/fileName/BounceRequestCondition.cs: c71315e8616cfb19474894a3465a6ad4 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 8448538d4f104f9acda18da16679c4ac -> 13cc614454c9ae28caa24456faa3d7cf
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Initial.cs: 5202c9f352230bc21b06985396029646 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Player.cs: 9ff419369ff9dd934d408900d69cc80b -> 
+  custom:scripting/monoscript/fileName/BoardCollider.cs: e74aaf2cdfb3fb779a02c897c458625d -> 
+  custom:scripting/monoscript/fileName/IKnowledgePool.cs: 155131c1a3619fe49a10a36a5b1639b8 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ISensorManagement.cs: 3daa958e36abeb387b54e841cb3b557c -> 
+  custom:scripting/monoscript/fileName/ISensor.cs: 65a8560713cc3f94be3550c045bd4799 -> 
+  custom:scripting/monoscript/fileName/IRequest.cs: eb4d1a94bf8e86424f298529a510f684 -> 
