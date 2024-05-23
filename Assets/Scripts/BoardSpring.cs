@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BoardSpring : MonoBehaviour
 {
-    Rigidbody2D rigidbody;
+    Rigidbody2D rigidBody;
     SpringJoint2D spring;
    // public float force;
     public float distance;
@@ -12,13 +12,13 @@ public class BoardSpring : MonoBehaviour
 
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rigidBody = GetComponent<Rigidbody2D>();
         spring = GetComponent<SpringJoint2D>();
     }
 
     void FixedUpdate()
     {
-        rigidbody.AddForce(Vector2.right);
+        rigidBody.AddForce(Vector2.right);
         if (Input.GetKey(KeyCode.Space))
         {
             Debug.Log("getkey");
@@ -28,7 +28,7 @@ public class BoardSpring : MonoBehaviour
         else
         {
             spring.distance = normalDistance;
-           
+            rigidBody.freezeRotation = true;
 
         }
     }

@@ -19,7 +19,12 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        ballRigid.AddForce(continueForce * Time.fixedDeltaTime);
-        
+        ballRigid.AddForce(continueForce) ;
+
+
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("Ball collide " + collision.gameObject.name);
     }
 }
