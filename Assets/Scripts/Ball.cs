@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Ball : MonoBehaviour
 {
@@ -13,18 +14,20 @@ public class Ball : MonoBehaviour
     }
     void Start()
     {
-
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         ballRigid.AddForce(continueForce) ;
-
-
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Ball collide " + collision.gameObject.name);
     }
+    public void OnCollideSpike()
+    {
+        Debug.Log("Ball Collide Spike");
+    }
+
 }

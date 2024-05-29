@@ -355,9 +355,21 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Ball.cs"
 "Assets/Scripts/BallBeginning.cs"
+"Assets/Scripts/BaseSpike.cs"
 "Assets/Scripts/BoardSpring.cs"
+"Assets/Scripts/Component/ColorSwitchComponent.cs"
+"Assets/Scripts/Component/Management/UIManager.cs"
+"Assets/Scripts/Component/ObstacleFeature/ObstacleFeatureA.cs"
+"Assets/Scripts/Component/ObstacleFeature/ObstacleFeatureB.cs"
+"Assets/Scripts/Component/ObstacleFeature/ObstacleFeatureC.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/PlayerBoard.cs"
+"Assets/Scripts/UI/NextButton.cs"
+"Assets/Scripts/UI/QuitButton.cs"
+"Assets/Scripts/UI/ResetButton.cs"
+"Assets/Scripts/UI/ResetConfirm.cs"
+"Assets/Scripts/UI/ScoreText.cs"
 -langversion:9.0
 
 /deterministic

@@ -14,10 +14,10 @@ TagManager:
   - UI
   - Outline
   - PlayerBoard
-  - Ball
-  - 
-  - 
-  - 
+  - CollideBoth
+  - CollideBlack
+  - CollideWhite
+  - BoardLimit
   - 
   - 
   - 

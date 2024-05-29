@@ -11,6 +11,7 @@ public class BallBeginning : MonoBehaviour
 
     void Start()
     {
+        UIManager.Instance.RegisterResetAction(ResetPositionShoot);
         ballTransform.position = transform.position;
         shootDirection = (directPoint.position - transform.position).normalized;
         ShootBall();
