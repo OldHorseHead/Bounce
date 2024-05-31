@@ -6,10 +6,8 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    Text _scoreText;
     static GameObject _resetConfirm;
     UnityAction _resetAction;
-    int _scoreNum;
     private static UIManager _instance;
     public static UIManager Instance => _instance;
     private UIManager() { }
@@ -29,19 +27,10 @@ public class UIManager : MonoBehaviour
     {
 
     }
-    public void SetComponentScore(Text textComponent)
-    {
-        _scoreText = textComponent;
-    }
     public static void SetComponentResetConfirm(GameObject resetConfirm)
     {
         _resetConfirm = resetConfirm;
         Debug.Log(_resetConfirm);
-    }
-    public void GetScore(int score)
-    {
-        _scoreNum += score;
-        _scoreText.text = "Score: " + _scoreNum;
     }
     public void ResetConfirm()
     {
@@ -54,5 +43,9 @@ public class UIManager : MonoBehaviour
     public void InvokeResetAction()
     {
         _resetAction.Invoke();
+    }
+    public void LevelClearNotice()
+    {
+
     }
 }

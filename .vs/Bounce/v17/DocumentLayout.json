@@ -3,64 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity3DProjects\\Bounce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|e:\\unity3dprojects\\bounce\\assets\\scripts\\component\\management\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\management\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|e:\\unity3dprojects\\bounce\\assets\\scripts\\ui\\resetconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\resetconfirm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|e:\\unity3dprojects\\bounce\\assets\\scripts\\ui\\scoretext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\scoretext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\ballbeginning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballbeginning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\ui\\resetbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\resetbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\ui\\nextbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\nextbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\playerboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\component\\colorswitchcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\colorswitchcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\component\\obstaclefeature\\obstaclefeatureb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\obstaclefeature\\obstaclefeatureb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\component\\obstaclefeature\\obstaclefeaturea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\obstaclefeature\\obstaclefeaturea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|e:\\unity3dprojects\\bounce\\assets\\scripts\\component\\management\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\component\\management\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\basespike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basespike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|E:\\Unity3DProjects\\Bounce\\assets\\scripts\\boardspring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE4CEBD-87BE-0A97-95FA-B9B3B101725D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boardspring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,191 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ScoreText.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\ScoreText.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ScoreText.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\ScoreText.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\ScoreText.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T02:00:14.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResetConfirm.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\ResetConfirm.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ResetConfirm.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\ResetConfirm.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\ResetConfirm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T01:24:55.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Ball.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Ball.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Ball.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwB0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T04:39:30.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerBoard.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\PlayerBoard.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBoard.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\PlayerBoard.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerBoard.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA0AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T04:43:31.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ColorSwitchComponent.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\ColorSwitchComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\ColorSwitchComponent.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\ColorSwitchComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Component\\ColorSwitchComponent.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T21:40:03.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ObstacleFeatureB.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureB.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureB.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureB.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T00:19:43.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\Management\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\Management\\UIManager.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\Management\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Component\\Management\\UIManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCMAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T23:41:26.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BallBeginning.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\BallBeginning.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BallBeginning.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\BallBeginning.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BallBeginning.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:58:15.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NextButton.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\NextButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\NextButton.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\NextButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\NextButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T01:00:11.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResetButton.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\ResetButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ResetButton.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\UI\\ResetButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\ResetButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T01:18:57.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ObstacleFeatureA.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureA.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureA.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureA.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Component\\ObstacleFeature\\ObstacleFeatureA.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T22:13:27.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Obstacle.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Obstacle.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacle.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Obstacle.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswCQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T21:17:26.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Enemy.cs",
               "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBAAAAAFAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T13:46:58.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BaseSpike.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\BaseSpike.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BaseSpike.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\BaseSpike.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BaseSpike.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Ball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball.cs",
+              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Ball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ball.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T22:36:45.806Z"
+              "WhenOpened": "2024-05-20T04:39:30.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BoardSpring.cs",
-              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\BoardSpring.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BoardSpring.cs",
-              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\BoardSpring.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BoardSpring.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB4AAAArAAAA",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\Management\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Component\\Management\\GameManager.cs",
+              "ToolTip": "E:\\Unity3DProjects\\Bounce\\Assets\\Scripts\\Component\\Management\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Component\\Management\\GameManager.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T05:09:23.95Z"
+              "WhenOpened": "2024-05-29T06:52:44.34Z",
+              "EditorCaption": ""
             }
           ]
         }

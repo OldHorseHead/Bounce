@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+public interface ColorImageChangeable
+{
+    public Image GetColorTargetImage();
+}
+
 public enum ElementColor
 {
     white,
@@ -20,9 +25,17 @@ public class ColorSwitchComponent : MonoBehaviour
     Image image;
     void Start()
     {
-        image = GetComponent<Image>();
+        TryGetComponent(out image);
+        TrySwitchColorImage();
         SwitchColor(_elementColor);
         SwitchCollideColor(_collideColor);
+    }
+    public void TrySwitchColorImage()
+    {
+        if (TryGetComponent<ColorImageChangeable>(out var enemy))
+            image = enemy.GetColorTargetImage();
+        if (image == null)
+            Debug.LogError("fail to get a color image");
     }
     public void SwitchColor(ElementColor color)
     {

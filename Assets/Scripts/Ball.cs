@@ -6,7 +6,11 @@ using UnityEngine.UI;
 public class Ball : MonoBehaviour
 {
     Rigidbody2D ballRigid;
-    public Vector3 continueForce;
+    [SerializeField] Vector3 _continueForce;
+    [SerializeField] int _damage;
+
+    public int Damage { get => _damage; set => _damage = value; }
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -19,7 +23,7 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        ballRigid.AddForce(continueForce) ;
+        ballRigid.AddForce(_continueForce) ;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -27,7 +31,7 @@ public class Ball : MonoBehaviour
     }
     public void OnCollideSpike()
     {
-        Debug.Log("Ball Collide Spike");
+        GameManager.Instance.OnBallFall();
     }
 
 }

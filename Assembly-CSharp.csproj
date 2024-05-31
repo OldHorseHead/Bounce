@@ -63,7 +63,7 @@
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Obstacle.cs" />
-    <Compile Include="Assets\Scripts\UI\ScoreText.cs" />
+    <Compile Include="Assets\Scripts\Component\Management\GameManager.cs" />
     <Compile Include="Assets\Scripts\UI\ResetConfirm.cs" />
     <Compile Include="Assets\Scripts\Component\ColorSwitchComponent.cs" />
     <Compile Include="Assets\Scripts\BaseSpike.cs" />

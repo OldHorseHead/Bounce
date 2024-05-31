@@ -18,14 +18,6 @@ public class NextButton : MonoBehaviour
     }
     public void NextLevel()
     {
-        var index = SceneManager.GetActiveScene().buildIndex;
-        if (index < SceneManager.sceneCountInBuildSettings-1)
-        {
-
-            SceneManager.LoadScene(index + 1);
-            Debug.Log("SeceneLoaded");
-        }
-        else
-            Debug.LogError("No more Scene!");
+        GameManager.Instance.LoadNextLevel();
     }
 }

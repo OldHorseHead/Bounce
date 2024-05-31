@@ -18,7 +18,7 @@ public class BoardSpring : MonoBehaviour
 
     void FixedUpdate()
     {
-        rigidBody.AddForce(Vector2.right);
+        //rigidBody.AddForce(Vector2.right);
         if (Input.GetKey(KeyCode.Space))
         {
             Debug.Log("getkey");
