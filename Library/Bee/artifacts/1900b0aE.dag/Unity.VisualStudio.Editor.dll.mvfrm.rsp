@@ -87,5 +87,7 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.VirtualTexturingModule.dll_CDCFC4DC961B
 Library\Bee\artifacts\mvdfrm\UnityEngine.VRModule.dll_1FA040241FB374FF.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.WindModule.dll_1E773262DA4CCBFB.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.XRModule.dll_525F0328A8EDC25D.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Xcode.dll_7BFEF22FA2436C27.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.OSXStandalone.Extensions.dll_36184A36BD7F25D4.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UWP.Extensions.dll_70742CDE3B1DFFB4.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_8B3EB0F91C8964A9.mvfrm
