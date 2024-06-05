@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2173914892084578003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1382831738391031929}
+  - component: {fileID: 8242002263207804258}
+  m_Layer: 5
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1382831738391031929
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173914892084578003}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.84375, y: 0.84375, z: 0.84375}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1137.7778, y: 640}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8242002263207804258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173914892084578003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0704e103a38d60046b941349503af399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyCount: 0
+  _ballCount: 0
+  _gameState: 0
+  _ball: {fileID: 4958625459547879424, guid: b86444cd39723f347b60f0c824ad7b74, type: 3}
+  _initBallPoolCount: 10
+  _canvas: {fileID: 0}
+  _poolBallInitPosition: {x: 320, y: -360, z: 0}
+  _poolBallInitOffset: {x: 0, y: 35, z: 0}
+  _Gameplay_StartOnStartAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_RunnningOnStartAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_ResultOnStartAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_StartOnUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_RunnningOnUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_StartOnFixedUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_RunnningOnFixedUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_ResultOnUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_ResultOnFixedUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_StartOnExitAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_RunnningOnExitAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _Gameplay_ResultOnExitAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _downSpaceKeyAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _holdSpaceKeyUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _upSpaceAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _downLeftShiftKeyAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _holdLeftShiftKeyUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _upLeftShiftAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _downRightShiftKeyAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _holdRightShiftKeyUpdateAction:
+    m_PersistentCalls:
+      m_Calls: []
+  _upRightShiftAction:
+    m_PersistentCalls:
+      m_Calls: []

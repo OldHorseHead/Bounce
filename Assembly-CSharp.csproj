@@ -63,18 +63,19 @@
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Obstacle.cs" />
+    <Compile Include="Assets\Scripts\UI\ConfirmPanel.cs" />
     <Compile Include="Assets\Scripts\Component\Management\GameManager.cs" />
-    <Compile Include="Assets\Scripts\UI\ResetConfirm.cs" />
+    <Compile Include="Assets\Scripts\UI\ConfirmButton.cs" />
     <Compile Include="Assets\Scripts\Component\ColorSwitchComponent.cs" />
     <Compile Include="Assets\Scripts\BaseSpike.cs" />
     <Compile Include="Assets\Scripts\Component\ObstacleFeature\ObstacleFeatureB.cs" />
     <Compile Include="Assets\Scripts\Component\ObstacleFeature\ObstacleFeatureA.cs" />
     <Compile Include="Assets\Scripts\Component\Management\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Component\Management\EventChannelsManager.cs" />
     <Compile Include="Assets\Scripts\BallBeginning.cs" />
-    <Compile Include="Assets\Scripts\UI\NextButton.cs" />
+    <Compile Include="Assets\Scripts\BoardClaw.cs" />
     <Compile Include="Assets\Scripts\BoardSpring.cs" />
     <Compile Include="Assets\Scripts\Component\ObstacleFeature\ObstacleFeatureC.cs" />
-    <Compile Include="Assets\Scripts\UI\ResetButton.cs" />
     <Compile Include="Assets\Scripts\UI\QuitButton.cs" />
     <Compile Include="Assets\Scripts\PlayerBoard.cs" />
   </ItemGroup>

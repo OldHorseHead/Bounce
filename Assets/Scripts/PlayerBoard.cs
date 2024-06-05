@@ -10,17 +10,56 @@ public enum PlayerBoardColor
 public class PlayerBoard : MonoBehaviour
 {
     [SerializeField] PlayerBoardColor _boardColor;
+    [SerializeField] BoardClaw _claw;
+    [SerializeField] bool _isLeft;
     ColorSwitchComponent _ballColorSwitch;
-    // Start is called before the first frame update
-    void Start()
+    bool _isClawClosed;
+    private void Start()
     {
-    
+        _isClawClosed = true;
+        GameManager.Instance._Gameplay_RunnningOnUpdateAction.AddListener(ClawIsReadyOnUpdate);
     }
 
-    // Update is called once per frame
-    void Update()
+    void ClawIsReadyOnUpdate()
     {
-
+        if (_isLeft)
+        {
+            if ((int)transform.rotation.eulerAngles.z == 20)
+            {
+                if (_isClawClosed)//for call once
+                {
+                    _isClawClosed = false;
+                    _claw.ClawPreparedToCatch();
+                }
+            }
+            else if ((int)transform.rotation.eulerAngles.z == 329)
+            {
+                if (_isClawClosed == false)
+                {
+                    _isClawClosed = true;
+                    _claw.ClawStopOpen();
+                }
+            }
+        }
+        else
+        {
+            if ((int)transform.rotation.eulerAngles.z == 339)
+            {
+                if (_isClawClosed)//for call once
+                {
+                    _isClawClosed = false;
+                    _claw.ClawPreparedToCatch();
+                }
+            }
+            else if ((int)transform.rotation.eulerAngles.z == 30)
+            {
+                if (_isClawClosed == false)
+                {
+                    _isClawClosed = true;
+                    _claw.ClawStopOpen();
+                }
+            }
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

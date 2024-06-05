@@ -6,31 +6,43 @@ public class BoardSpring : MonoBehaviour
 {
     Rigidbody2D rigidBody;
     SpringJoint2D spring;
-   // public float force;
+    // public float force;
     public float distance;
     public float normalDistance;
-
+    [SerializeField] bool isLeftBoard;
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
         spring = GetComponent<SpringJoint2D>();
-    }
 
-    void FixedUpdate()
+        RegisterToGameManager();
+
+    }
+    void RegisterToGameManager()
     {
-        //rigidBody.AddForce(Vector2.right);
-        if (Input.GetKey(KeyCode.Space))
+        GameManager.Instance._Gameplay_StartOnStartAction.AddListener(ResetSpring);
+
+        if (isLeftBoard)
         {
-            Debug.Log("getkey");
-            spring.distance = distance;
-            //spring.GetReactionForce(force);
+            GameManager.Instance._holdLeftShiftKeyUpdateAction.AddListener(KeepSpringDistanceOnUpdate);
+            GameManager.Instance._upLeftShiftAction.AddListener(ResetSpring);
         }
         else
         {
-            spring.distance = normalDistance;
-            rigidBody.freezeRotation = true;
-
+            GameManager.Instance._holdRightShiftKeyUpdateAction.AddListener(KeepSpringDistanceOnUpdate);
+            GameManager.Instance._upRightShiftAction.AddListener(ResetSpring);
         }
+
     }
-   
+
+    void KeepSpringDistanceOnUpdate()
+    {
+        Debug.Log("Keeping Spring Distance OnFixedUpdate");
+        spring.distance = distance;
+    }
+    void ResetSpring()
+    {
+        spring.distance = normalDistance;
+        rigidBody.freezeRotation = true;
+    }
 }

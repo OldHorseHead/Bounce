@@ -14,13 +14,14 @@ GameObject:
   - component: {fileID: 5023546986820760277}
   - component: {fileID: 7382487793467994120}
   - component: {fileID: 4958625459547879424}
+  - component: {fileID: 6028926456563870248}
   m_Layer: 8
   m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4041443528097445601
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99, y: -483}
+  m_AnchoredPosition: {x: 238, y: -432}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4257765976530613054
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.013138294, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -139,7 +140,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &4958625459547879424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,5 +153,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f7ebb298f68274aba20983fa4dd367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _continueForce: {x: 0, y: -600, z: 0}
+  _gravityContinueForce: {x: 0, y: -800, z: 0}
   _damage: 1
+--- !u!114 &6028926456563870248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162155653843593356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809d02faee6f8d6489b826c612c9ecb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _elementColor: 0
+  _collideColor: 1

@@ -1,51 +1,63 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    static GameObject _resetConfirm;
-    UnityAction _resetAction;
+
     private static UIManager _instance;
     public static UIManager Instance => _instance;
     private UIManager() { }
+
+
+    public ConfirmPanel _confirmPanel;//not child
+    [SerializeField] Image _getBallPopNotice;
+
+
     private void Awake()
     {
-        if (_instance == null)
-            _instance = new();
+        _instance = this;
     }
-    // Start is called before the first frame update
     void Start()
     {
+        GameManager.Instance._Gameplay_ResultOnStartAction.AddListener(ResultConfirm);//pop result panel when enter gameplay_result state
+        EventChannelsManager.Instance.OnNoMoreLevel.AddListener(NoMoreLevelConfirm);
+        EventChannelsManager.Instance.OnGetBall.AddListener(PopGetBallNotice);
 
     }
+    public void OnClickRestartAtConfirmPanel(Button button, UnityAction action)
+    {
+        GameManager.Instance.SwitchGameState(GameState.Gameplay_Start);
+        button.onClick.RemoveListener(action);
+    }
+    public void OnClickNextAtConfirmPanel()
+    {
+        GameManager.Instance.LoadNextLevel();
+    }
+    void ResultConfirm()//result panel content depend on enemy or ball count 
+    {
+        if (GameManager.Instance._enemyCount == 0)
+        {
+            _confirmPanel.gameObject.SetActive(true);
+            _confirmPanel.OnWinResult();
+        }
+        else if (GameManager.Instance._ballCount == 0)
+        {
+            _confirmPanel.gameObject.SetActive(true);
+            _confirmPanel.OnLoseResult();
+        }
+    }
+    void NoMoreLevelConfirm()
+    {
+        _confirmPanel.gameObject.SetActive(true);
+        _confirmPanel.OnNoMoreLevel();
+    }
+    void PopGetBallNotice()
+    {
+        _getBallPopNotice.gameObject.SetActive(true);
 
-    // Update is called once per frame
-    void Update()
-    {
+        Invoke("CloseNoitce", 0.3f);
+    }
+    void CloseNoitce() => _getBallPopNotice.gameObject.SetActive(false);
 
-    }
-    public static void SetComponentResetConfirm(GameObject resetConfirm)
-    {
-        _resetConfirm = resetConfirm;
-        Debug.Log(_resetConfirm);
-    }
-    public void ResetConfirm()
-    {
-        _resetConfirm.gameObject.SetActive(true);
-    }
-    public void RegisterResetAction(UnityAction resetFunc)
-    {
-        _resetAction = resetFunc;
-    }
-    public void InvokeResetAction()
-    {
-        _resetAction.Invoke();
-    }
-    public void LevelClearNotice()
-    {
-
-    }
 }

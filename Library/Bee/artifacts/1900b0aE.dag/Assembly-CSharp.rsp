@@ -356,8 +356,10 @@
 "Assets/Scripts/Ball.cs"
 "Assets/Scripts/BallBeginning.cs"
 "Assets/Scripts/BaseSpike.cs"
+"Assets/Scripts/BoardClaw.cs"
 "Assets/Scripts/BoardSpring.cs"
 "Assets/Scripts/Component/ColorSwitchComponent.cs"
+"Assets/Scripts/Component/Management/EventChannelsManager.cs"
 "Assets/Scripts/Component/Management/GameManager.cs"
 "Assets/Scripts/Component/Management/UIManager.cs"
 "Assets/Scripts/Component/ObstacleFeature/ObstacleFeatureA.cs"
@@ -366,10 +368,9 @@
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/PlayerBoard.cs"
-"Assets/Scripts/UI/NextButton.cs"
+"Assets/Scripts/UI/ConfirmButton.cs"
+"Assets/Scripts/UI/ConfirmPanel.cs"
 "Assets/Scripts/UI/QuitButton.cs"
-"Assets/Scripts/UI/ResetButton.cs"
-"Assets/Scripts/UI/ResetConfirm.cs"
 -langversion:9.0
 
 /deterministic
